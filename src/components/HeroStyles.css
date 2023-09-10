@@ -1,0 +1,334 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.hero-text h1 {
+  font-size: 10vmin;
+  font-weight: 800;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-text p {
+  font-size: 2.3rem;
+  color: #fff;
+  padding: 1rem 0 2rem 0;
+}
+.hero-text .show {
+  text-decoration: none;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #222;
+}
+@media screen and (max-width: 555px) {
+  .hero-text h1 {
+    padding: 10px 20px;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+  .hero-text .show {
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+}
+
+/* DistinationButton */
+.distinationbutton {
+  margin: 9rem auto 12rem auto;
+}
+.distinationbutton a {
+  padding: 1rem 2.7rem;
+  border: 2px solid salmon;
+  font-size: 2.5vmin;
+  text-decoration: none;
+  color: salmon;
+  border-radius: 12px;
+}
+.distinationbutton a:hover {
+  background: salmon;
+  color: #fff;
+  border: none;
+}
+
+/* Strip */
+.strip {
+  width: 84%;
+  margin: 0 auto;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+  background-image: url("https://www.freepik.com/free-vector/cartoon-camping-evening_17806951.htm?query=travelling#from_view=detail_alsolike");
+  background-color: #5f5f5f;
+  margin-bottom: 6rem;
+  size: cover;
+  background-repeat: no-repeat;
+}
+.strip-nav {
+  width: 45%;
+  margin: 0 auto;
+  padding: 5rem 0 1rem 0;
+}
+.strip-nav ul {
+  list-style: none;
+}
+.strip-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.strip-nav ul a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2.5vmin;
+  color: #fff;
+}
+.strip-nav ul a:hover {
+  color: #222;
+}
+.strip-details {
+  width: 60%;
+  margin: 2rem auto 0 auto;
+}
+.strip-details ul {
+  list-style: none;
+  padding-bottom: 8rem;
+}
+.strip-details ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.strip-details ul a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2vmin;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.strip-details ul a:nth-child(5) {
+  border: none;
+}
+.strip-details ul a:hover {
+  color: #222;
+}
+.strip-details ul a i {
+  margin-left: 2vmin;
+  font-size: 2vmin;
+}
+.strip-details ul li button {
+  font-size: 2vmin;
+  margin-top: -2rem;
+  border-bottom: none;
+}
+/* aboutus  page css */
+
+.aboutimage {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin: 6rem auto 0 auto;
+}
+.aboutimage img {
+  width: 70%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.Aboutpage {
+  margin: 0rem 7rem 5rem 7rem;
+}
+.Aboutpage .title h1 {
+  font-size: 13vmin;
+  font-weight: 600;
+  color: rgba(187, 185, 185, 0.719);
+}
+.history {
+  margin: 5rem auto 15rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.vision {
+  margin: 5rem auto 15rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mission {
+  margin: 5rem auto 15rem auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.text {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.text h1 {
+  font-size: 16vmin;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.text p {
+  text-align: left;
+}
+.aboutimages {
+  position: relative;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+  margin-top: 3rem;
+}
+.aboutimages img {
+  width: 47%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 16px;
+  opacity: 0.8;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.aboutimages img:nth-child(2) {
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+.aboutimages img:nth-child(3) {
+  position: absolute;
+  top: 300px;
+  right: 290px;
+}
+.aboutimages img:nth-child(4) {
+  position: absolute;
+  top: 260px;
+  right: 0px;
+}
+.Aboutpage h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: darkolivegreen;
+}
+@media screen and (max-width: 1200px) {
+  .destination {
+    margin: 4rem 3rem;
+  }
+  .history,
+  .mission,
+  .vision {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .text {
+    width: 80%;
+    margin: 23rem auto 0 auto;
+  }
+  .aboutimages {
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+  .aboutimages img {
+    height: 250px;
+  }
+  .aboutimages img:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    right: 330px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .aboutimages img:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    right: 53%;
+  }
+}
+@media screen and (max-width: 810px) {
+  .aboutimages img:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    right: 53%;
+  }
+  .text {
+    width: 100%;
+    margin: 23rem auto 0 auto;
+  }
+  .aboutimages {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .destination {
+    margin-left: 0;
+  }
+  .aboutimages img:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    right: 270;
+  }
+  .text {
+    width: 100%;
+  }
+  .aboutimages {
+    width: 100%;
+  }
+}
+
+/* contact page */
+.form-container {
+  margin: 5rem 7rem;
+}
+.form-container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.form-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+.form-container textarea {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+.form-container button {
+  display: inline;
+}
+@media screen and (max-width: 850px) {
+  .form-container {
+    margin: 4.5rem 2.5rem;
+  }
+  .form-container form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}
